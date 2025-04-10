@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160DB2A22DA7FB3A0001CA24 /* Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160DB2A12DA7FB320001CA24 /* Filtering.swift */; };
 		811D6DE92DA7E65800463824 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811D6DE32DA7E65800463824 /* Preview Assets.xcassets */; };
 		811D6DEA2DA7E65800463824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811D6DE52DA7E65800463824 /* Assets.xcassets */; };
 		811D6DEB2DA7E65800463824 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D6DE62DA7E65800463824 /* QuizView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160DB2A12DA7FB320001CA24 /* Filtering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtering.swift; sourceTree = "<group>"; };
 		811D6DD22DA7E64900463824 /* SpellingMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D6DE32DA7E65800463824 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		811D6DE52DA7E65800463824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160DB2A02DA7FB0F0001CA24 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				160DB2A12DA7FB320001CA24 /* Filtering.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		811D6DC92DA7E64900463824 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				811D6DE72DA7E65800463824 /* SpellingMobileApp.swift */,
+				160DB2A02DA7FB0F0001CA24 /* Functions */,
 				811D6DED2DA7E65C00463824 /* Model */,
 				811D6DEF2DA7E66500463824 /* ViewModel */,
 				811D6DEE2DA7E66100463824 /* Views */,
@@ -133,7 +144,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					811D6DD12DA7E64900463824 = {
 						CreatedOnToolsVersion = 16.2;
@@ -176,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160DB2A22DA7FB3A0001CA24 /* Filtering.swift in Sources */,
 				811D6DF32DA7E72100463824 /* Outcome.swift in Sources */,
 				811D6DF52DA7E74D00463824 /* Result.swift in Sources */,
 				811D6DEB2DA7E65800463824 /* QuizView.swift in Sources */,
@@ -223,6 +235,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -286,6 +299,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -315,7 +329,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpellingMobile/Preview Content\"";
-				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,7 +358,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SpellingMobile/Preview Content\"";
-				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -352,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
